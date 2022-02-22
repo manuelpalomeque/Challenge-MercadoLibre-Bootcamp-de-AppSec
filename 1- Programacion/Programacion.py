@@ -1,6 +1,12 @@
-# 1) El primer desafío era hacer una función donde se analicen dos números y retorne
-# “true“ si el número2 era mayor al numero1, -1 si son iguales y “false” si numero1 es
+# 1) Haga una función donde se analicen dos números y retorne
+# “true“ si el número2 es mayor al numero1, -1 si son iguales y “false” si numero1 es
 # mayor que numero2
+
+def NumberChallenge(n1, n2):
+    # code goes here
+
+
+print(NumberChallenge(input()))
 
 
 # 2) Desafío de cuerdas
@@ -18,7 +24,13 @@
 # Salida: ooookkr
 #Salida final: ooookkr
 
+def StringChallenge1(strParam1):
+    # code goes here
+    return strParam1
 
+
+# keep this function call here
+print(StringChallenge1(input()))
 
 
 # 3) Desafío de cuerdas
@@ -32,3 +44,9 @@
 # Salida: 85121215 45Entrada: "jaj-a"
 # Salida: 10110-1
 
+def StringChallenge2(strParam2):
+    # code goes here
+    return strParam2
+
+# keep this function call here
+print(StringChallenge2(input()))
