@@ -2,11 +2,19 @@
 # “true“ si el número2 es mayor al numero1, -1 si son iguales y “false” si numero1 es
 # mayor que numero2
 
+n1 = input('Ingrese el valor del primer numero:')
+n2 = input('Ingrese el valor del segundo numero:')
+
 def NumberChallenge(n1, n2):
     # code goes here
+    if n2 > n1:
+        return True
+    elif n2 == n1:
+        return -1
+    else:
+        return False
 
-
-print(NumberChallenge(input()))
+print(NumberChallenge(n1, n2))
 
 
 # 2) Desafío de cuerdas
