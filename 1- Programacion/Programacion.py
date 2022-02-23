@@ -6,7 +6,6 @@ n1 = input('Ingrese el valor del primer numero:')
 n2 = input('Ingrese el valor del segundo numero:')
 
 def NumberChallenge(n1, n2):
-    # code goes here
     if n2 > n1:
         return True
     elif n2 == n1:
@@ -30,15 +29,15 @@ print(NumberChallenge(n1, n2))
 # Salida: rtyggg
 # Salida final: rtygggEntrada: "oMoMkkNrrN"
 # Salida: ooookkr
-#Salida final: ooookkr
+# Salida final: ooookkr
+
+strParam1 = 'MrtyNNgMM'
 
 def StringChallenge1(strParam1):
     # code goes here
     return strParam1
 
-
-# keep this function call here
-print(StringChallenge1(input()))
+print(StringChallenge1(strParam1))
 
 
 # 3) Desafío de cuerdas
@@ -52,9 +51,10 @@ print(StringChallenge1(input()))
 # Salida: 85121215 45Entrada: "jaj-a"
 # Salida: 10110-1
 
+strParam2 = 'hola 45'
+
 def StringChallenge2(strParam2):
     # code goes here
     return strParam2
 
-# keep this function call here
-print(StringChallenge2(input()))
+print(StringChallenge2(strParam2))
