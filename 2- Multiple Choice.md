@@ -50,5 +50,14 @@ RESPUESTA: Opción 1
 
 RESPUESTA: Opción d
 
+3- ¿Cuál de los siguientes strings NO REPRESENTA un HEADER HTTP durante una petición de tipo GET?
+ 
+    a) Host
+    b) Content-Type
+    c) bcrypt
+    d) Cookie
+
+RESPUESTA: Opción c
+
 
 
