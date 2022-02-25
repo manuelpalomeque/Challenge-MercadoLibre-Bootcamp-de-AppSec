@@ -59,5 +59,11 @@ RESPUESTA: Opción d
 
 RESPUESTA: Opción c
 
+4- ¿Cuál de los siguientes String NO REPRESENTA a un header HTTP de respuesta a una petición GET desde un servidor web?
+ 
+    a) Content-Length
+    b) Base64
+    c) Location
+    d) Set-Cookie
 
-
+RESPUESTA: Opción b
