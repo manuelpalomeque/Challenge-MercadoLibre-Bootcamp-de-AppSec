@@ -86,3 +86,14 @@ RESPUESTA: Opción d
 
 RESPUESTA: Opción a
 
+7- ¿Cuáles de los siguientes comandos de Linux no puede ser aplicado a un directorio?
+     
+    a) touch
+    b) rm -r
+    c) cat
+    d) file
+
+RESPUESTA: Opción d
+
+
+
