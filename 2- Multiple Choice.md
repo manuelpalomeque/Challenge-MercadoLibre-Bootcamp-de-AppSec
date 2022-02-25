@@ -145,3 +145,28 @@ RESPUESTA: Opción c
 
 RESPUESTA: Opción c
 
+10-  ¿Qué vulnerabilidad puede identificar en el fragmento de código responsable de obtener la sesión?
+ 
+    $('input#submitLogin').click( function() {
+        if ($('input#username').val() == 'admin' &&
+            $('input#password').val() == atob('U3VwZXJTZWNyZXRQYXNzTWVsaQ==')) {
+                    $.post('/api/v1/getsession', $('form#myForm').serialize(), function(data) {
+                                $.cookie('sid', data);
+                        },
+                        'json' 
+                    );
+        } else alert('Invalid login');
+    });
+    
+    Información útil:
+    XSS: surge cuando falta la validación de entrada, no se aplica codificación de salida y puede inyectar javascript malicioso para que lo lean otros usuarios de aplicaciones.
+    Hardcoded credentials: la codificación de credenciales es la práctica de desarrollo de software de incrustar datos de autenticación directamente en el código fuente.
+    IDOR (referencia de objeto directo inseguro): mala práctica de codificación donde los identificadores de objetos son predecibles y no se han implementado controles de autorización.
+    Inyección de código: Inyección de código es el término general para los tipos de ataque que consisten en inyectar código que luego es interpretado/ejecutado por la aplicación.
+     
+    a) Hardcoded credentials
+    b) Inyección de código
+    c) IDOR
+    d) XSS
+
+RESPUESTA: Opción a
