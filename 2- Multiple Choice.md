@@ -67,3 +67,13 @@ RESPUESTA: Opción c
     d) Set-Cookie
 
 RESPUESTA: Opción b
+
+5- ¿Cuál de las siguientes afirmaciones acerca del protocolo DNS es correcta?
+ 
+    a) 8.8.8.8 es un DNS publico de Google que puede ser configurado en un router de hogar como también en un host 
+    linux modificando el archivo /etc/resolv.conf
+    b) DNS usa SQL como lenguaje para sus queries
+    c) DNS usualmente trabaja en el puerto 80
+    d) Los navegadores web utilizan el protocolo DNS para traducir de direcciones IP a nombres de dominios
+
+RESPUESTA: Opción d
