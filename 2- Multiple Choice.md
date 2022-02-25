@@ -95,5 +95,27 @@ RESPUESTA: Opción a
 
 RESPUESTA: Opción d
 
+8- ¿Qué vulnerabilidad puedes identificar en este fragmento de código?
+    
+    const express = require("express");
+    const app = express();
+    app.GET('/users', function (request, response) {
+        let url_address = request.query.callback_address;
+        response.redirect(302,'https://{url_address}/home');
+    });
+    
+     
+    Información útil:
+    o	SSRF (Server Side Request Forgery): Permite a un atacante acceder a un servidor arbitrario usando un servidor de la red interna como pivot.
+    o	IDOR (Insecure Direct Object Reference): Mala práctica de desarrollo donde los identificadores de objeto son predecibles y no tienen controles de autorización.
+    o	Open Redirect: permite a los atacantes dirigir a las víctimas a direcciones URL maliciosas.
+    o	Broken Access Control: Los atacantes autenticados obtienen acceso a recursos no autorizados, esto se debe a una falta de validación en los permisos de los usuarios.
+     
+    a) SSRF
+    b) Broken Access Control
+    c) Open Redirect
+    d) IDOR
+
+RESPUESTA: Opción c
 
 
