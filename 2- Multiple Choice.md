@@ -41,3 +41,14 @@ OPCIONES:
 
 RESPUESTA: Opción 1
 
+2- ¿Cuál de las siguientes estrategias considera mejor para proteger las contraseñas almacenadas en una base de datos?
+ 
+    a) Texto plano
+    b) MD5
+    c) Base64
+    d) SHA256
+
+RESPUESTA: Opción d
+
+
+
