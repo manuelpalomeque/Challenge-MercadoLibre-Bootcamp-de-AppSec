@@ -118,4 +118,30 @@ RESPUESTA: Opción d
 
 RESPUESTA: Opción c
 
+9- ¿Qué vulnerabilidad puede identificar en el fragmento de código responsable de consultar una dirección a partir de su ID?
+ 
+    from django.http import HttpResponse
+    from django.db import connection
+    
+    def address(request):
+        id = request.GET.get("id", "")
+        cursor = connection.cursor()
+        cursor.execute("SELECT address FROM addresses_user WHERE id=%s" % id) 
+        row = cursor.fetchone()
+        return HttpResponse("Address is %s" % row[0])
+    
+    }
+     
+    Información útil:
+    o	SSRF (Server Side Request Forgery): permite a los atacantes acceder a servidores (o dominios) arbitrarios utilizando un servidor de la red interna  como pivote.
+    o	RCE (Remote Code Execution): Permite a un atacante ejecutar remotamente código malicioso en una computadora.
+    o	SQL Injection: Es una vulnerabilidad de seguridad web que permite a un atacante interferir en las consultas que una aplicación realiza a su base de datos.
+    o	XSS: surge cuando falta la validación de entrada, no se aplica codificación de salida y puede inyectar javascript malicioso para que lo ejecuten otros usuarios de aplicaciones.
+     
+    a) SQL Injection
+    b) SSRF
+    c) XSS
+    d) RCE
+
+RESPUESTA: Opción c
 
