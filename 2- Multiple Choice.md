@@ -77,3 +77,12 @@ RESPUESTA: Opción b
     d) Los navegadores web utilizan el protocolo DNS para traducir de direcciones IP a nombres de dominios
 
 RESPUESTA: Opción d
+
+6- ¿Cuál de las siguientes afirmaciones es correcta acerca de Procesos y Threads?
+ 
+    a) Un proceso es una instancia en ejecución de un programa que contiene uno o varios threads
+    b) Un cambio realizado en el proceso padre afecta a todos los procesos hijos
+    c) Los threads ejecutan en un espacio de memoria compartida con sus correspondientes procesos.
+
+RESPUESTA: Opción a
+
