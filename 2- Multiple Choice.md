@@ -170,3 +170,14 @@ RESPUESTA: Opción c
     d) XSS
 
 RESPUESTA: Opción a
+
+11- ¿Qué mensaje se escode detrás del siguiente string?
+
+    UXVpZVJvIGZvcm1hUiBQYXJ0ZSBkZWwgQk9PVGNhbXAgZGUgQXBwU2VjIQ==
+     
+    a) QuIerO aprenDer sOBRe AppSEC!
+    b) QuieRo formaR Parte del BOOTcamp de AppSec.
+    c) Quiero formar parte del equipo de AppSec.
+    d) QuieRo formaR Parte del BOOTcamp de AppSec!
+
+RESPUESTA: Opción d
