@@ -32,9 +32,13 @@ print(NumberChallenge(n1, n2))
 # Salida final: ooookkr
 
 strParam1 = 'MrtyNNgMM'
+letraM = 'M'
+letraN = 'N'
 
 def StringChallenge1(strParam1):
     # code goes here
+    if letraM in strParam1:
+
     return strParam1
 
 print(StringChallenge1(strParam1))
@@ -52,6 +56,17 @@ print(StringChallenge1(strParam1))
 # Salida: 10110-1
 
 strParam2 = 'hola 45'
+
+loteNumeros = []
+
+# inicialice el lote de numeros
+
+for j in range(23):
+    if j == 0:
+        loteNumeros.append(j + 1)
+    else:
+        j += 1
+        loteNumeros.append(j)
 
 def StringChallenge2(strParam2):
     # code goes here
