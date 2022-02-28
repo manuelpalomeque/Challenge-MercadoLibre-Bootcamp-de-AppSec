@@ -38,7 +38,6 @@ letraN = 'N'
 def StringChallenge1(strParam1):
     # code goes here
     if letraM in strParam1:
-
     return strParam1
 
 print(StringChallenge1(strParam1))
@@ -57,9 +56,9 @@ print(StringChallenge1(strParam1))
 
 strParam2 = 'hola 45'
 
-loteNumeros = []
+# inicialice el lote de numeros:
 
-# inicialice el lote de numeros
+loteNumeros = []
 
 for j in range(23):
     if j == 0:
@@ -67,6 +66,10 @@ for j in range(23):
     else:
         j += 1
         loteNumeros.append(j)
+
+# inicialice el lote de letras:
+
+loteLetras = list(map(chr, range(97, 123)))
 
 def StringChallenge2(strParam2):
     # code goes here
