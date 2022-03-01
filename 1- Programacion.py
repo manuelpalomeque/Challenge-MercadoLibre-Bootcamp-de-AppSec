@@ -88,23 +88,6 @@ stringChallenge(strParam1, 'M', 'N')
 
 strParam2 = 'hola 45'
 
-# inicialice el lote de numeros:
+def stringChallenge1(strCadena):
 
-loteNumeros = []
-
-for j in range(23):
-    if j == 0:
-        loteNumeros.append(j + 1)
-    else:
-        j += 1
-        loteNumeros.append(j)
-
-# inicialice el lote de letras:
-
-loteLetras = list(map(chr, range(97, 123)))
-
-def StringChallenge2(strParam2):
-    # code goes here
-    return strParam2
-
-print(StringChallenge2(strParam2))
+stringChallenge1(strParam_2)
