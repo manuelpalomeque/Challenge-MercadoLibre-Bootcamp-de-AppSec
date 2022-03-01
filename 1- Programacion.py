@@ -43,7 +43,12 @@ def stringChallenge(strCadena,str1,str2):
             cont1 += 1
         else:
             cont1 += 1
-            
+    # Duplico el caracter anterior:
+    for x in lista1:
+        if x > 0:
+            y = x - 1
+            strParam2[x] = strParam2[y]
+
 stringChallenge(strParam1, 'M', 'N')
 
 # 3) Desafío de cuerdas
