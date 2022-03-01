@@ -58,6 +58,10 @@ def stringChallenge(strCadena,str1,str2):
             cont2 += 1
         else:
             cont2 += 1
+    # elimino el caracter siguiente a N
+    for x in lista2:
+        if x < len(lista2):
+            strParam2[x] = strParam2[x+1]
 
 stringChallenge(strParam1, 'M', 'N')
 
