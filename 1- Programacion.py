@@ -63,6 +63,12 @@ def stringChallenge(strCadena,str1,str2):
         if x < len(lista2):
             strParam2[x] = strParam2[x+1]
 
+    strParam2 = "".join(strParam2)  # cambio de lista a str
+    strParam2 = strParam2.replace(str2, '')  # elimino la letra M
+    strParam2 = strParam2.replace(str1, '')  # elimino N
+    strParam2 = strParam2.lower()  # me aseguro que el valor quede en minuscula siempre
+
+
 stringChallenge(strParam1, 'M', 'N')
 
 # 3) Desafío de cuerdas
