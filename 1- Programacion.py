@@ -46,8 +46,18 @@ def stringChallenge(strCadena,str1,str2):
     # Duplico el caracter anterior:
     for x in lista1:
         if x > 0:
-            y = x - 1
-            strParam2[x] = strParam2[y]
+            strParam2[x] = strParam2[x-1]
+
+    # Segunda parte, con la letra 'N':
+    lista2 = []
+    cont2 = 0
+    # ubico el indice donde se encuentra la letra N
+    for x in strParam2:
+        if x == str2:
+            lista2.append(cont2)
+            cont2 += 1
+        else:
+            cont2 += 1
 
 stringChallenge(strParam1, 'M', 'N')
 
