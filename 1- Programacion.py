@@ -89,5 +89,11 @@ stringChallenge(strParam1, 'M', 'N')
 strParam2 = 'hola 45'
 
 def stringChallenge1(strCadena):
+    # me aseguro de que la cadena ingresada quede en minuscula siempre:
+    strCadena = strCadena.lower()
+    # vuelvo el dato en tipo list:
+    strCadena = list(strCadena)
+    # formalice la lista con las letras del alfabeto:
+    alfabeto = list(string.ascii_lowercase)
 
 stringChallenge1(strParam_2)
