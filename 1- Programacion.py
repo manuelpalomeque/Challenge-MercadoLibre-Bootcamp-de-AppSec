@@ -101,5 +101,17 @@ def stringChallenge1(strCadena):
     indices_alfabeto = []
     indice_strParametro3 = []
     cont1 = 0
+    
+    # Recorro la lista strParametro_3 y verifico si el elemento coincide con algun elemento de la lista alfabeto
+    for x in strParametro_3:
+        cont2 = 0
+        for y in alfabeto:
+            if x == y:
+                indices_alfabeto.append(cont2 + 1)  # guardo el indice donde coincide con alfabeto
+                indice_strParametro3.append(cont1)  # guardo el indice donde hay una letra en strParam_2
+                cont2 += 1
+            else:
+                cont2 += 1
+        cont1 += 1
 
 stringChallenge1(strParam_2)
