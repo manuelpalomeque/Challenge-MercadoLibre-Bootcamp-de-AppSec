@@ -68,6 +68,10 @@ def stringChallenge(strCadena,str1,str2):
     strParam2 = strParam2.replace(str1, '')  # elimino N
     strParam2 = strParam2.lower()  # me aseguro que el valor quede en minuscula siempre
 
+    if len(strParam2) == 0:
+        return 'No se puede procesar, la cadena quedaria vacia. Cadena original: {} '.format(strCadena)
+    else:
+        return strParam2
 
 stringChallenge(strParam1, 'M', 'N')
 
