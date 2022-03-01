@@ -15,7 +15,6 @@ def NumberChallenge(n1, n2):
 
 print(NumberChallenge(n1, n2))
 
-
 # 2) Desafío de cuerdas
 # Haga que la función StringChallenge( str ) tome el parámetro str que se pasa, que será
 # una cadena que contenga letras del alfabeto, y devuelva una nueva cadena según las
@@ -32,16 +31,9 @@ print(NumberChallenge(n1, n2))
 # Salida final: ooookkr
 
 strParam1 = 'MrtyNNgMM'
-letraM = 'M'
-letraN = 'N'
+def stringChallenge(strCadena,str1,str2):
 
-def StringChallenge1(strParam1):
-    # code goes here
-    if letraM in strParam1:
-    return strParam1
-
-print(StringChallenge1(strParam1))
-
+stringChallenge(strParam1, 'M', 'N')
 
 # 3) Desafío de cuerdas
 # Haga que la función StringChallenge( str ) tome el parámetro str y codifique el mensaje
