@@ -32,7 +32,18 @@ print(NumberChallenge(n1, n2))
 
 strParam1 = 'MrtyNNgMM'
 def stringChallenge(strCadena,str1,str2):
-
+    strParam2 = list(strCadena)
+    # Primer parte, con la letra 'M':
+    lista1 = []
+    cont1 = 0
+    # ubico el indice donde se encuentra la letra M:
+    for x in strCadena:
+        if x == str1:
+            lista1.append(cont1)
+            cont1 += 1
+        else:
+            cont1 += 1
+            
 stringChallenge(strParam1, 'M', 'N')
 
 # 3) Desafío de cuerdas
