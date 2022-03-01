@@ -96,4 +96,10 @@ def stringChallenge1(strCadena):
     # formalice la lista con las letras del alfabeto:
     alfabeto = list(string.ascii_lowercase)
 
+    # Inicializo  las listas que necesitare para analizar:
+    strParametro_3 = strCadena
+    indices_alfabeto = []
+    indice_strParametro3 = []
+    cont1 = 0
+
 stringChallenge1(strParam_2)
