@@ -101,7 +101,7 @@ def stringChallenge1(strCadena):
     indices_alfabeto = []
     indice_strParametro3 = []
     cont1 = 0
-    
+
     # Recorro la lista strParametro_3 y verifico si el elemento coincide con algun elemento de la lista alfabeto
     for x in strParametro_3:
         cont2 = 0
@@ -113,5 +113,12 @@ def stringChallenge1(strCadena):
             else:
                 cont2 += 1
         cont1 += 1
+
+    # En base a los indices guardados, los cuales coinciden con una posicion de una letra en strParam_2,
+    # reemplazo la ubicacion con el numero que corresponde en base a la posicion en el alfabeto
+    for i in indice_strParametro3:
+        strParametro_3[i] = str(indices_alfabeto[i])
+        # con str() me aseguro que los numeros cambien de tipo de dato a str (sino quedan en tipo int)
+
 
 stringChallenge1(strParam_2)
