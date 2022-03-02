@@ -120,5 +120,9 @@ def stringChallenge1(strCadena):
         strParametro_3[i] = str(indices_alfabeto[i])
         # con str() me aseguro que los numeros cambien de tipo de dato a str (sino quedan en tipo int)
 
+    # vuelvo a str la lista:
+    strParametro_3 = "".join(strParametro_3)
+
+    return strParametro_3
 
 stringChallenge1(strParam_2)
